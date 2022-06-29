@@ -1,0 +1,16 @@
+:root {
+
+    /*  Colors  */
+    --color-bg: #1f1f38;
+    --color-bg-variant: #2c2c6c;
+    --color-primary: #4db5ff;
+    --color-primary-variant: #4fb2ff64;
+    --color-white: #fff;
+    --color-light: #9999;
+    --color-black: #000;
+    --color-gray-black:#111;
+    --color-success: #22aa21;
+
+    /* Transition */
+    --transition-1: all 600ms ease;
+}

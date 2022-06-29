@@ -11,7 +11,7 @@ const App = () => {
         <Header></Header>
       </div>
       <div className='div about'>
-        <About></About>
+        <About/>
       </div>
       <div className='div frameworks'>
         <Frameworks/>
