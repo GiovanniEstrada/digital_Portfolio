@@ -1,8 +1,6 @@
 import React from 'react';
 import './header.css';
 import CTA from './CTA'
-import Profile from '../../assets/me.png';
-import SocialNetwork from './HeaderSocials'
 
 
 const Header = () => {
