@@ -1,0 +1,16 @@
+.div {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+div .header {
+    width: 100%;
+    height: 390px;
+}
+
+div .about {
+    width: 100%;
+    height: 500px;
+    background: black;
+}
