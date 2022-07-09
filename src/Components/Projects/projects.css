@@ -3,6 +3,10 @@
     overflow-x: scroll;
 }
 
+.base {
+    height: max-content;
+}
+
 .img-project {
     object-fit: contain;
     margin: 20px 10px;

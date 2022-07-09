@@ -25,6 +25,7 @@ div .projects {
     background-color: #fff;
     width: 100%;
     height: 800px;
+    transition: all 600ms;
 }
 
 .section-title {
@@ -71,9 +72,18 @@ div .contact {
     div .about {
         height: 600px;
     }
+
+    div .projects {
+        height: 900px;
+    }
 }
 
+@media screen and (max-width:555px){
 
+    div .projects {
+        height: 1000px;
+    }
+}
 
 .posters::-webkit-scrollbar {
     display: none;
