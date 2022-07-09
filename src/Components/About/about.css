@@ -4,6 +4,7 @@
     width: 100%;
     height: 100%;
     display: flex;
+    z-index: 1;
 }
 
 .about-main .img {
@@ -100,4 +101,5 @@
     .about-main .text {
         width: 100%;
     }
+    
 }

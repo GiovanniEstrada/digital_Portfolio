@@ -1,0 +1,35 @@
+.pictures {
+    display: flex;
+    overflow-x: scroll;
+}
+
+.img-project {
+    object-fit: contain;
+    margin: 20px 10px;
+    width: 900px;
+    height: 400px;
+    max-height: 500px;
+    display: flex;
+}
+
+.desc {
+    margin: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    color: #000;
+    overflow-x: hidden;
+    width: 95%;
+    text-align: justify;
+    border: 2px solid #ddd;
+    position: absolute;
+    font-size: 20px;
+    font-weight:300;
+}
+
+.subtitle {
+    font-weight:900;
+}
+.bold {
+    display: inline;
+    font-weight: bold;
+}

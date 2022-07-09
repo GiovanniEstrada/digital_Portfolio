@@ -2,10 +2,11 @@
 
 .box-grid {
     display: grid;
-    grid-template-columns: repeat(4, 25%);
     color: #000;
     justify-items: center;
     padding-top: 30px;
+    height: 400px;
+    grid-template-columns: repeat(4,1fr);
 }
 
 .box-main {
@@ -29,8 +30,6 @@
 
 .box-main:hover {
     transform: translateX(-15px) translateY(-20px);
-    box-shadow: 5px 5px 32px #525252,
-        -5px -5px 32px #ffffff;
 }
 
 .frame-title {
@@ -46,7 +45,7 @@
     grid-row-end: 5;
 }
 
-.pointer{
+.pointer {
     width: 180px;
     height: 30px;
     background-color: #dcdcdc;
@@ -75,10 +74,11 @@
 
 .section-title {
     color: #000;
-    font-size: 30px;
-    margin: auto;
-    margin-bottom: 20px;
-    margin-top: 30px;
+    font-size: 50px;
+    width: 100vh;
+    margin: auto auto;
+    display: inline-block;
+    overflow-x: hidden;
 }
 
 .S {
@@ -86,44 +86,53 @@
     font-weight: bold;
 }
 
-/*Responsive*/
+::-webkit-scrollbar {
+    scroll-behavior: smooth;
+}
 
-@media screen and (max-width: 1690px) {
+
+@media screen and (max-width: 1320px) {
 
     .box-main {
         width: 300px;
         height: 400px;
     }
 
-}
-
-@media screen and (max-width: 1350px) {
+    .box-grid{
+        height: 550px;
+    }
 
     .box-grid {
-        display: grid;
-        grid-template-columns: repeat(2, 50%);
+        display: flex;
         color: #000;
-        position: relative;
+        justify-items: center;
+        padding-top: 30px;
+        overflow-y: hidden;
+        overflow-x: hidden;
     }
 
-    .box-main {
-        width: 400px;
-        height: 200px;
+    .frame-title {
+        font-size: 30px;
     }
 
-}
-
-@media screen and (max-width: 900px) {
-
-    .box-grid {
-        display: grid;
-        grid-template-columns: 100%;
-        color: #000;
-        position: relative;
+    .frame-icon {
+        grid-column-start: 1;
+        grid-column-end: 3;
     }
 
-}
+    .skills {
+        grid-column-start: 1;
+        grid-column-end: 3;
+        grid-row-start: 3;
+        grid-row-end: 4;
+        margin-top: 15px;
+        font-size: 20px;
+    }
 
-::-webkit-scrollbar {
-    scroll-behavior: smooth;
+    .pointer {
+        grid-column-start: 1;
+        grid-column-end: 3;
+        grid-row-start: 4;
+        grid-row-end: 5;
+    }
 }

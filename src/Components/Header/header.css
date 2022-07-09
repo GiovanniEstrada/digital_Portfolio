@@ -25,3 +25,14 @@
     transition: var(--transition-1);
 }
 
+@media screen and (max-width:500px) {
+    .container {
+        max-width: 300px;
+        margin-left:10px ;
+    }
+
+    .container h1 {
+        font-size: 30px;
+    }
+}
+
