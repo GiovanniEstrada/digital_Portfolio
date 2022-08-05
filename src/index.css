@@ -17,7 +17,7 @@ body {
     background: var(--color-white);
     color: var(--color-white);
     line-height: 1.7;
-    
+    background-color: #f5f5f5;
 }
 
 html {
