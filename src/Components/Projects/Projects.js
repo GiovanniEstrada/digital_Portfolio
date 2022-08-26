@@ -14,11 +14,11 @@ function Projects({ title, url, description, git, frameworks, project }) {
             alt="img"
             className="img-project"
             src={
-              project == "netflix"
+              project === "netflix"
                 ? proj1
-                : project == "challenge1"
+                : project === "challenge1"
                 ? proj2
-                : project == "challenge2"
+                : project === "challenge2"
                 ? proj3
                 : ""
             }

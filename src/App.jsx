@@ -1,7 +1,4 @@
 import React from "react";
-
-import { MdAdsClick } from "react-icons/md";
-
 import Header from "./Components/Header/Header";
 import About from "./Components/About/About";
 import Frameworks from "./Components/Frameworks/Frameworks";
