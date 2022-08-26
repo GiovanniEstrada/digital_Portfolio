@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;400;500;900&display=swap');
+
 .pictures {
     display: flex;
     overflow-x: scroll;
@@ -33,7 +35,162 @@
 .subtitle {
     font-weight:900;
 }
+
 .bold {
     display: inline;
     font-weight: bold;
+}
+
+.container-project {
+    margin: 0;
+    padding: 0;
+    width: 99%;
+    height: auto;
+    object-fit: cover;
+    display: flex;
+    
+    align-items: center;
+    justify-content: space-around;
+}
+
+.logo {
+    position: relative;
+    object-fit: cover;
+    width: auto;
+    height: auto;
+    overflow: hidden;
+    margin: 20px 10px;
+}
+
+.img-project {
+
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: auto;
+    
+
+}
+
+.info {
+    position: absolute;
+    top: 100%; 
+    width: auto;
+    height: 100%;
+    background-color: #000c;
+    color: #fff;
+    font-weight: 500;
+    display: flex;
+    padding: 0 60px;
+    text-align: justify;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+    transition: top 500ms ease-in-out;
+}
+
+.logo:hover .info {
+    top: 0;
+}
+
+.info h1 {
+    font-size: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-family: 'Roboto Slab', serif;
+    margin-bottom: 15px;
+}
+
+.info p {
+    font-size: 14px;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 100;
+}
+
+.info .url {
+    font-size: 14px;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.info a {
+    text-decoration: underline;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+}
+
+.project-frameworks {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid #fff;
+    padding: 10px;
+}
+
+.project-framework {
+    background-color: #fff;
+    border: 2px solid #fff;
+    color: #222;
+    padding: 10px 15px;
+    border-radius: 15px;
+    margin-left: 15px;
+    font-weight: 900;
+    font-size: 18px;
+    font-family: 'Roboto Slab', serif;
+    cursor: default;
+    text-align: center;
+    transition: all 300ms ease-in-out;
+}
+
+.project-framework:hover {
+    background-color: transparent;
+    color: #fff;
+}
+
+@media screen and (max-width: 1220px) {
+
+    .container-project {
+        flex-direction: column;
+    }
+    
+}
+
+@media screen and (max-width: 620px) {
+    .info h1 {
+        font-size: 15px;
+    }
+    
+    .info p {
+        font-size: 10px;
+    }
+    
+    .info .url {
+        font-size: 10px;
+    }
+
+    .project-framework {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .info h1 {
+        font-size: 12px;
+    }
+    
+    .info p {
+        font-size: 9px;
+    }
+    
+    .info .url {
+        font-size: 9px;
+    }
+
+    .project-framework {
+        font-size: 11px;
+    }
 }

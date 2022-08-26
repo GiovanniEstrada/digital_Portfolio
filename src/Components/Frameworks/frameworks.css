@@ -16,15 +16,14 @@
     width: 400px;
     height: 200px;
     margin: 180px 0 15px 0;
-    border-radius: 30px;
-    background: linear-gradient(145deg, #cacaca, #f0f0f0);
-    box-shadow: 20px 20px 57px #bebebe99,
-        -20px -20px 57px #ffffff99;
+    border-radius: 10px;
+    background-color: #101010;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(4, 1fr);
     margin: 15px;
     justify-items: center;
+    color: #fff;
     transition: all 600ms ease-out;
 }
 
@@ -50,8 +49,7 @@
 .pointer {
     width: 180px;
     height: 30px;
-    background: rgb(172,172,173);
-background: linear-gradient(280deg, rgba(172,172,173,1) 0%, rgba(0,0,0,0.0139211136890951) 100%);
+    background-color: #fff;
     border-radius: 15px;
     display: grid;
     grid-template-columns: repeat(5, 1fr);
@@ -70,13 +68,9 @@ background: linear-gradient(280deg, rgba(172,172,173,1) 0%, rgba(0,0,0,0.0139211
 .point.active {
     width: 20px;
     height: 20px;
-    background-color: #6bdf77;
+    background-color: #000;
     border-radius: 50%;
     border: 1px solid #617e61;
-    box-shadow: 5px 3px  #6bdf7755,
-    3px -3px #6bdf7755,
-    -3px 3px #6bdf7755,
-    -3px -3px #6bdf7755;
 }
 
 .section-title {

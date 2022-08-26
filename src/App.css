@@ -1,3 +1,9 @@
+.flex-main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
 .div {
     display: flex;
     flex-direction: column;
@@ -22,13 +28,17 @@ div .frameworks {
 }
 
 div .projects {
-    background-color: #f5f5f5;
+    background-color: #111;
     width: 100%;
-    height: 800px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
     transition: all 600ms;
+    
 }
 
-.section-title {
+.section-title-skills {
     color: #000;
     font-size: 50px;
     width: 100%;
@@ -36,7 +46,18 @@ div .projects {
     margin: auto auto;
     display: inline-block;
     overflow-x: hidden;
-    background-color: #f5f5f5;
+
+}
+
+.section-title-project {
+    color: #fff;
+    font-size: 50px;
+    width: 100%;
+    text-align: center;
+    margin: auto auto;
+    display: inline-block;
+    overflow-x: hidden;
+
 }
 
 .S {
@@ -61,6 +82,10 @@ div .contact {
     background: linear-gradient(317deg, rgba(17, 17, 17, 1) 43%, rgba(51, 51, 51, 1) 100%);
 }
 
+.click {
+    color: #00f;
+}
+
 
 @media screen and (max-width: 1320px) {
     div .frameworks {
@@ -72,16 +97,18 @@ div .contact {
     div .about {
         height: 600px;
     }
-
-    div .projects {
-        height: 900px;
-    }
 }
 
 @media screen and (max-width:555px){
 
     div .projects {
         height: 1000px;
+    }
+}
+
+@media screen and (max-width:440px){
+    div .projects {
+        height: 1500px;
     }
 }
 
