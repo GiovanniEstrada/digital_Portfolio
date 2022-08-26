@@ -40,7 +40,7 @@ const App = () => {
           sirve para mostrar el manejo de css y javascript para poder desarrollar pequeñas tareas."
           project="challenge1"
           url="https://imaginative-kringle-a2052e.netlify.app/"
-          git="https://github.com/GiovanniEstrada/netflix.git"
+          git="https://github.com/GiovanniEstrada/FrontEnd-Challenge-1-.git"
           frameworks={["Javascript", "CSS", "HTML"]}
         />
         <Projects
@@ -52,7 +52,7 @@ const App = () => {
            hacer una interaccion a tiempo real en la pagina."
           project="challenge2"
           url="https://jazzy-youtiao-ab3405.netlify.app/"
-          git="https://github.com/GiovanniEstrada/netflix.git"
+          git="https://github.com/GiovanniEstrada/FrontEnd-Challenge-2-.git"
           frameworks={["Javascript", "CSS", "HTML"]}
         />
         <Projects
