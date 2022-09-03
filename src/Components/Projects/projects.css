@@ -43,14 +43,14 @@
 
 .container-project {
     margin: 0;
-    padding: 0;
+    padding: 0 20px;
     width: 99%;
     height: auto;
     object-fit: cover;
     display: flex;
     
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .logo {
@@ -179,15 +179,16 @@
 
 @media screen and (max-width: 500px) {
     .info h1 {
-        font-size: 12px;
+        font-size: 10px;
     }
     
     .info p {
-        font-size: 9px;
+        font-size: 7px;
+        overflow: scroll;
     }
     
     .info .url {
-        font-size: 9px;
+        font-size: 7px;
     }
 
     .project-framework {

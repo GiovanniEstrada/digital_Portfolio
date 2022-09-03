@@ -33,6 +33,31 @@ const App = () => {
           <h2 className="S">P</h2>rojects
         </h3>
         <Projects
+          title="Frontend Mentor | Rock, Paper, Scissors game"
+          description='Con el objetivo de mejorar las habilidades de ReactJS, 
+          decidí crear esta pagina web en la cual podrás jugar al clasico juego "Piedra, 
+          Papel o Tijera". La interaccion con la pagina es intuitiva, seleccionamos uno de los 
+          tres items para jugar, luego la pagina hara un versus en el cual se decidira quien ganará y perdera.
+           Otro de los objetivos del uso de React es relacionarse mas con los Hooks que el framework 
+           nos brinda'
+          project="challenge4"
+          url="https://stirring-ganache-b2cb3f.netlify.app/"
+          git="https://github.com/GiovanniEstrada/frontend-challenge-4-"
+          frameworks={["ReactJS", "Javascript", "CSS", "HTML"]}
+        />
+        <Projects
+          title="Frontend Mentor | IP Address Tracker"
+          description="Hoy en dia al estar conectados a internet, encontrar tu localizacion con tu ip 
+          es mas sencillo. Esta pagina web nos permite geolocalizar cualquier 
+          ip registrada de forma global. El proyecto se realiza con la finalidad 
+          de demostrar el manejo de una API la cual nos brinda la localizacion segun latitud 
+          y longitud y una herramienta de Javascript la cual nos genera el mapa"
+          project="challenge3"
+          url="https://creative-lolly-ea2ee4.netlify.app/"
+          git="https://github.com/GiovanniEstrada/FrontEnd-Challenge-3-"
+          frameworks={["Javascript", "LeafletJS", "ipfy", "CSS", "HTML"]}
+        />
+        <Projects
           title="Frontend Mentor | Interactive rating component"
           description="Este es un proyecto inicial de la plataforma Frontend Mentor 
           es una pequeña pagina en la cual puedes calificar de la escala de 1 a 5 y poder enviar 

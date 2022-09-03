@@ -3,6 +3,8 @@ import "./projects.css";
 import proj1 from "../../assets/netflix-1.PNG";
 import proj2 from "../../assets/challenge-1.PNG";
 import proj3 from "../../assets/challenge-2.PNG";
+import proj4 from "../../assets/challenge-3.PNG";
+import proj5 from "../../assets/challenge-4.PNG";
 
 function Projects({ title, url, description, git, frameworks, project }) {
   console.log(url);
@@ -20,6 +22,10 @@ function Projects({ title, url, description, git, frameworks, project }) {
                 ? proj2
                 : project === "challenge2"
                 ? proj3
+                : project === "challenge3"
+                ? proj4
+                : project === "challenge4"
+                ? proj5
                 : ""
             }
           ></img>

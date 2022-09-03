@@ -99,13 +99,6 @@ div .contact {
     }
 }
 
-@media screen and (max-width:555px){
-
-    div .projects {
-        height: 1000px;
-    }
-}
-
 @media screen and (max-width:440px){
     div .projects {
         height: 1500px;
