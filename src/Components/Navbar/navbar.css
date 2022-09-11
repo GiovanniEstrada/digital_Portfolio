@@ -1,0 +1,104 @@
+.navbar-container {
+    padding: 0 10px;
+    width: 100%;
+    height: auto;
+    z-index: 10;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #000;
+    z-index: 15;
+}
+
+.title {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+}
+
+.options {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 50%;
+    max-width: 700px;
+}
+
+.options p {
+    font-family: 'Roboto', sans-serif;
+    cursor: pointer;
+    position: relative;
+    font-weight: 100;
+    letter-spacing: 2px;
+    transition: all 600ms;
+}
+
+
+.options p:hover {
+    transform: scale(1.08);
+}
+
+.options p::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    color: #fff;
+    background-color: #fff;
+    height: 2px;
+    width: 0;
+    transition: all 200ms ease-out;
+}
+
+.options p:hover:before {
+    width: 100%;
+}
+
+.options-btn {
+    display: none;
+    background-color: transparent;
+    border: none;
+    outline: none;
+}
+
+@media screen and (max-width: 700px) {
+
+    .options {
+        display: none;
+    }
+
+    .options-btn {
+        box-sizing: border-box;
+        display: flex;
+        width: 50px;
+        height: 40px;
+        margin: 5px 0;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        cursor: pointer;
+        transition: all 600ms;
+    }
+
+    .option-btn {
+        width: 80%;
+        height: 5px;
+        background-color: #fff;
+        border-radius: 10px;
+        transition: all 600ms;
+    }
+
+    .options-btn.active .option-btn:first-child {
+        transform: rotate(45deg) translateY(15px) translateX(3px);
+    } 
+
+    .options-btn.active .option-btn:nth-child(2) {
+        display: none;
+    } 
+
+    .options-btn.active .option-btn:nth-child(3) {
+        transform: rotate(-45deg) translateY(-10px);
+    } 
+
+}
