@@ -1,4 +1,4 @@
-import React, { Suspense, lazy, useState } from "react";
+import React, { Suspense, lazy } from "react";
 import Navbar from "./Components/Navbar/Navbar";
 import "./App.css";
 import { Route, Routes } from "react-router-dom";
@@ -23,7 +23,7 @@ const App = () => {
           exact
           path="/"
           element={
-            <Suspense fallback={<h1>Wait for it</h1>}>
+            <Suspense fallback={""}>
               <Header />
             </Suspense>
           }
@@ -32,7 +32,7 @@ const App = () => {
           exact
           path="/skills"
           element={
-            <Suspense fallback={<h1>Wait for it</h1>}>
+            <Suspense fallback={""}>
               <Skills />
             </Suspense>
           }
@@ -41,7 +41,7 @@ const App = () => {
           exact
           path="/projects"
           element={
-            <Suspense fallback={<h1>Wait for it</h1>}>
+            <Suspense fallback={""}>
               <div className="projects-container">
                 <Projects
                   title="Rock, Paper, Scissors game"
@@ -139,7 +139,7 @@ const App = () => {
           exact
           path="/about"
           element={
-            <Suspense fallback={<h1>Wait for it</h1>}>
+            <Suspense fallback={""}>
               <About />
             </Suspense>
           }
@@ -148,7 +148,7 @@ const App = () => {
           exact
           path="/contact"
           element={
-            <Suspense fallback={<h1>Wait for it</h1>}>
+            <Suspense fallback={""}>
               <Contact />
             </Suspense>
           }
