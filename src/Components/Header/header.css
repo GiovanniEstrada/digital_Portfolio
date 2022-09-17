@@ -70,6 +70,7 @@
 
 .welcome {
     font-family: 'Roboto', sans-serif;
+    font-weight: 100;
     margin: 0;
 }
 
@@ -85,4 +86,27 @@
     font-family: 'Raleway', sans-serif;
     font-weight: 100;
     font-size: 20px;
+}
+
+@media screen and (max-width: 700px) {
+    .circles {
+        display: none;
+    }
+
+    .presentation {
+        align-items: center;
+        width: 90%;
+    }
+
+    .welcome {
+        font-size: 14px;
+    }
+
+    .name {
+        font-size: 30px;
+    }
+
+    .dev {
+        font-size: 17px;
+    }
 }

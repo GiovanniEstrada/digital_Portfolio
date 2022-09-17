@@ -2,7 +2,7 @@ import React from "react";
 import "./Skills.css";
 
 import { FaReact, FaAngular, FaHtml5 } from "react-icons/fa";
-import { SiJavascript, SiCss3 } from "react-icons/si";
+import { SiJavascript, SiCss3, SiTypescript, SiVuedotjs } from "react-icons/si";
 
 export default function Skills({ tech }) {
   return (
@@ -17,12 +17,13 @@ export default function Skills({ tech }) {
             <div className="points">
               <div className="point active"></div>
               <div className="point active"></div>
-              <div className="point"></div>
+              <div className="point "></div>
               <div className="point"></div>
               <div className="point"></div>
             </div>
           </div>
         </div>
+        {/* --------------------------------------*/}
         <div className="skill-container">
           <div className="logo">
             <FaAngular />
@@ -31,13 +32,30 @@ export default function Skills({ tech }) {
             <h1 className="name-tech">Angular</h1>
             <div className="points">
               <div className="point active"></div>
-              <div className="point"></div>
+              <div className="point "></div>
               <div className="point"></div>
               <div className="point"></div>
               <div className="point"></div>
             </div>
           </div>
         </div>
+        {/* --------------------------------------*/}
+        <div className="skill-container">
+          <div className="logo">
+            <SiVuedotjs />
+          </div>
+          <div className="section">
+            <h1 className="name-tech">Vue.js</h1>
+            <div className="points">
+              <div className="point active"></div>
+              <div className="point "></div>
+              <div className="point"></div>
+              <div className="point"></div>
+              <div className="point"></div>
+            </div>
+          </div>
+        </div>
+        {/* --------------------------------------*/}
         <div className="skill-container">
           <div className="logo">
             <SiJavascript />
@@ -53,6 +71,7 @@ export default function Skills({ tech }) {
             </div>
           </div>
         </div>
+        {/* --------------------------------------*/}
         <div className="skill-container">
           <div className="logo">
             <FaHtml5 />
@@ -68,6 +87,7 @@ export default function Skills({ tech }) {
             </div>
           </div>
         </div>
+        {/* --------------------------------------*/}
         <div className="skill-container">
           <div className="logo">
             <SiCss3 />
@@ -78,6 +98,22 @@ export default function Skills({ tech }) {
               <div className="point active"></div>
               <div className="point active"></div>
               <div className="point active"></div>
+              <div className="point"></div>
+              <div className="point"></div>
+            </div>
+          </div>
+        </div>
+        {/* --------------------------------------*/}
+        <div className="skill-container">
+          <div className="logo">
+            <SiTypescript />
+          </div>
+          <div className="section">
+            <h1 className="name-tech">Typescript</h1>
+            <div className="points">
+              <div className="point active"></div>
+              <div className="point active"></div>
+              <div className="point"></div>
               <div className="point"></div>
               <div className="point"></div>
             </div>

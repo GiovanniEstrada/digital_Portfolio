@@ -13,7 +13,8 @@
 .project-container {
     z-index: 10;
     width: 450px;
-    height: 600px;
+    height: auto;
+    padding-bottom: 15px;
     box-sizing: border-box;
     background-color: #fff;
     border-radius: 15px;
@@ -26,6 +27,7 @@
 }
 
 .project-container img{
+    width: 100%;
     transition: all 600ms ease-out;
 }
 
@@ -49,6 +51,7 @@
 
 .technologies {
     display: flex;
+    flex-wrap: wrap;
     width: 100%;
     justify-content: space-around;
     font-weight: 600;
@@ -83,6 +86,7 @@
     text-align: justify;
     font-weight: 300;
     font-family: 'Raleway', sans-serif;
+    letter-spacing: 1px;
     border: 1px solid #0002;
     border-radius: 5px;
 }
@@ -122,7 +126,21 @@
 
 @media screen and (max-width: 700px) {
     .project-container {
-        margin-top: 70px;
-        width: 80%;
+        margin-top: 0px;
+        width: 95%;
+        border-radius: 0px;
+    }
+
+    .project-title {
+        font-size: 20px;
+    }
+
+    .framework {
+        font-size: 14px;
+    }
+
+    .description {
+        font-size: 14px;
+        
     }
 }

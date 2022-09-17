@@ -57,6 +57,17 @@ const App = () => {
                   frameworks={["ReactJS", "Javascript", "CSS", "HTML"]}
                 />
                 <Projects
+                  title="Calculator App using Vue.js"
+                  description="Luego de aprender una nueva tecnologia es necesario 
+                  llevar a la practica todo los conocimientos con un proyecto. En este caso 
+                  y con la ayuda ve Vue pude realizar una calculadora al cual realiza 
+                  las operaciones matematicas basicas."
+                  project="challenge7"
+                  url="https://monumental-dragon-7a6a2e.netlify.app/"
+                  git="https://github.com/GiovanniEstrada/frontend-challenge-8-.git"
+                  frameworks={["Vue.js", "Typescript", "CSS", "HTML"]}
+                />
+                <Projects
                   title="TODO app using Angular"
                   description="Con esta pagina podras ingresar una tarea y esta la 
                   ingresara a las tareas por hacer. Una vez realizada la tarea se 

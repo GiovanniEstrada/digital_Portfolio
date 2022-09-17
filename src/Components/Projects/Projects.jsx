@@ -9,6 +9,7 @@ import proj4 from "../../assets/challenge-3.PNG";
 import proj5 from "../../assets/challenge-4.PNG";
 import proj6 from "../../assets/challenge-6.PNG";
 import proj7 from "../../assets/challenge-5.PNG";
+import proj8 from "../../assets/challenge-7.png";
 
 export default function Projects({
   title,
@@ -39,6 +40,8 @@ export default function Projects({
               ? proj6
               : project === "challenge6"
               ? proj7
+              : project === "challenge7"
+              ? proj8
               : ""
           }
         ></img>
